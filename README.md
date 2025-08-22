@@ -1,69 +1,51 @@
-# React + TypeScript + Vite
+# Drag-and-Drop with Confirmation Input (React + TypeScript)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + TypeScript project demonstrating:
 
-Currently, two official plugins are available:
+- Drag-and-drop functionality using HTML5 Drag & Drop API.
+- Moving an item from its original position to a drop zone.
+- Input field integration with confirm dialog before submitting data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Draggable Item**: Click and drag the red box.
+- **Drop Zone**: Drop the item into a green dashed box.
+- **Move Behavior**: Once dropped, the original item disappears.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## Tech Stack 
+- **ReactJs** 
+- **HTML5 Native Drag And Drop API**
+- **CSS**
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## Run 
+
+Clone the respo :
+```bash
+https://github.com/FullStackDeveloperShubham/DragAndDrop
+```
+```bash
+cd DragAndDrop
+
+npm i 
+
+npm run dev
+
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Author
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+**👨‍💻 Shubham**
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 🐙 GitHub: [https://github.com/FullStackDeveloperShubham](https://github.com/FullStackDeveloperShubham)  
+- 💼 LinkedIn: [https://www.linkedin.com/in/shubham-gaikwad-62499329a/](https://www.linkedin.com/in/shubham-gaikwad-62499329a/)  
+- 🐦 Twitter: [https://x.com/ItsDevShubham](https://x.com/ItsDevShubham)  
+- 📸 Instagram: [https://www.instagram.com/developer_shubham_/](https://www.instagram.com/developer_shubham_/)  
+
+
+
